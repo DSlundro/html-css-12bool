@@ -29,7 +29,10 @@ body{
 /*#region        bonus*/
 
 
-#container [class*="col-"]{background-color: rgb(0, 174, 255,);}
+#container [class*="col-"]{
+    background-color: rgb(0, 174, 255,);
+    width: 999px;
+}
 
 .col-7 span:first-child{color: green;}
 .col-7 span:last-child{color: red;}
@@ -79,7 +82,7 @@ body {animation-name: WoW;}
 
 .emoji-1 img, .emoji-2 img{
     position: fixed;
-    width: 300px;
+    width: 200px;
     top: 40%;
     transform: translate(0, -50%);
 }
